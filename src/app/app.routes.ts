@@ -7,6 +7,9 @@ import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { NoticesComponent } from './components/notices/notices.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ViewNoticeComponent } from './components/view-notice/view-notice.component';
+import { MaterialComponent } from './components/material/material.component';
+import { NewNoticeComponent } from './components/new-notice/new-notice.component';
+
 
 export const routes: Routes = [
 {path:'',component:HomeComponent},
@@ -18,6 +21,8 @@ export const routes: Routes = [
 {path:'pie-chart',component:PieChartComponent},
 {path:'notices',component:NoticesComponent},
 {path:'products',component:ProductsComponent},
+{path:'material',component:MaterialComponent},
+{path:'newNotice',component:NewNoticeComponent},
 {path:'**',component:HomeComponent},
 
 ];
